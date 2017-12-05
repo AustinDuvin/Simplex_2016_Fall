@@ -31,6 +31,8 @@ void Application::InitVariables(void)
 	}
 	m_uOctantLevels = 1;
 	root = new MyOctant(m_uOctantLevels, 5);
+	//MyOctant temp = new MyOctant(vector3(0.0f, 0.0f, 0.0f), 68.0f);
+	//root = temp;
 	m_pEntityMngr->Update();
 }
 void Application::Update(void)
