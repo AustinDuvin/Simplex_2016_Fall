@@ -5,7 +5,6 @@
 
 namespace Simplex
 {
-
 	class MyOctant
 	{
 	public:
@@ -215,7 +214,6 @@ namespace Simplex
 		*/
 		void ConstructList(void);
 	};//class
-
 }
 
 #endif //__MYOCTANTCLASS_H_
