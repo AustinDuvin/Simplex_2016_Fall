@@ -154,6 +154,7 @@ void Simplex::MyOctant::Init(void)
 	if(m_fSize == 0.0f)
 		m_fSize = 68.0f;
 	m_pEntityMngr = MyEntityManager::GetInstance();
+	//
 }
 
 void Simplex::MyOctant::ConstructList(void)
